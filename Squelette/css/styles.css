@@ -15,7 +15,6 @@ body {
 }
 
 .container {
-   width:1020px;
    margin:auto;
 
 }
@@ -67,6 +66,7 @@ hr {
 /* Header */
 
 header nav {
+   text-align:center;
 
 }
 
@@ -87,7 +87,8 @@ header nav ul li a {
 
 header nav ul li a:hover {
    display:inline-block;
-   background-position:50% -15px;
+   background-position:50% 0px;
+   padding-top:25px;
    background-repeat:no-repeat;
    background-image:url(../images/tiny-donut.png);
 
@@ -97,7 +98,6 @@ header nav ul li#logo a {
    display:block;
    width:259px;
    height:141px;
-   margin-top:15px;
    background-position:;
    background-image:url(../images/logo.png);
    background-repeat:no-repeat;
@@ -105,8 +105,6 @@ header nav ul li#logo a {
 
 header nav ul li#logo a:hover {
    display:block;
-   margin-top:15px;
-   border:1px solid black;
    width:259px;
    height:141px;
    background-image:url(../images/logo-hover.png);
@@ -115,15 +113,27 @@ header nav ul li#logo a:hover {
 
 /* Hero */
 
-#hero {
+#hero {display:block;
+       
 
 }
 
 #hero .container {
+   display:block;
+   text-align:center;
+   background-image:url(../images/bg-tile-yellow.gif);
 
 }
 
+
+
 #hero .large-ribbon {
+   display:block;
+   float :right;
+   background-image:url(../images/fresh-whole-ingredients.png);
+   height:190px;
+   width:150px;
+   
 
 }
 
